@@ -20,3 +20,6 @@ require("lazy").setup({ { import = "josean.plugins" }, { import = "josean.plugin
     notify = false,
   },
 })
+
+require("sg").setup()
+
