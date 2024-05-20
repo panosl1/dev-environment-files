@@ -1,2 +1,2 @@
-require("josean.core")
-require("josean.lazy")
+require("panosl1.core")
+require("panosl1.lazy")
