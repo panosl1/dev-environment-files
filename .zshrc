@@ -5,6 +5,11 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+[[ -d $HOME/.tmux/plugins ]] || mkdir -p $HOME/.tmux/plugins
+[[ -d $HOME/.tmux/plugins ]] || git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+[[ -d $HOME/fzf-sh ]] || git  clone https://github.com/junegunn/fzf-git.sh.git  ~/fzf-sh
+
 source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
