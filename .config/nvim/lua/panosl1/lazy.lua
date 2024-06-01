@@ -21,4 +21,4 @@ require("lazy").setup({ { import = "panosl1.plugins" }, { import = "panosl1.plug
   },
 })
 
-require("sg").setup()
+-- require("sg").setup()
