@@ -28,7 +28,7 @@ config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 8
 
-config.color_scheme = "tokyonight"
+config.color_scheme = "tokyonight_night"
 
 -- and finally, return the configuration to wezterm
 return config
