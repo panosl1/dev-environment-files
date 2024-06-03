@@ -28,7 +28,7 @@ config.window_decorations = "RESIZE"
 config.window_background_opacity = 0.95
 config.macos_window_background_blur = 8
 
-config.color_scheme = "tokyonight_night"
+config.color_scheme = "Catppuccin Mocha"
 
 wezterm.on("user-var-changed", function(window, pane, name, value)
 	local overrides = window:get_config_overrides() or {}
