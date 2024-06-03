@@ -5,7 +5,7 @@ return {
     local lualine = require("lualine")
     local lazy_status = require("lazy.status") -- to configure lazy pending updates count
 
-    require("tokyonight")._load("night") -- load tokyonight theme
+    --require("catppuccin") -- load tokyonight theme
 
     -- configure lualine with modified theme
     lualine.setup({
