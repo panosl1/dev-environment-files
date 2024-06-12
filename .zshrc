@@ -15,7 +15,7 @@
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 ### [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # Source oh-my-posh instead
-eval "$(oh-my-posh init zsh --config ~/.config/zen.json)"
+eval "$(oh-my-posh init zsh --config ~/.config/zen.toml)"
 
 alias reload-zsh="source ~/.zshrc"
 alias edit-zsh="nvim ~/.zshrc"
