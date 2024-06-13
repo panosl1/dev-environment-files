@@ -23,13 +23,13 @@ version = 2
     template = "{{.Icon}} "
     type = "os"
 
-  [[blocks.segments]]
-    background = "p:blue"
-    foreground = "p:text"
-    powerline_symbol = ""
-    style = "diamond"
-    template = "{{ .UserName }}@{{ .HostName }}"
-    type = "session"
+#  [[blocks.segments]]
+#    background = "p:blue"
+#    foreground = "p:text"
+#    powerline_symbol = ""
+#    style = "diamond"
+#    template = "{{ .UserName }}@{{ .HostName }}"
+#    type = "session"
 
   [[blocks.segments]]
     background = "p:pink"
@@ -61,3 +61,30 @@ version = 2
       rebase_icon = " "
       revert_icon = " "
       tag_icon = " "
+[[blocks]]
+  type = 'prompt'
+  alignment = 'left'
+  newline = true
+
+  [[blocks.segments]]
+    type = 'text'
+    style = 'plain'
+    foreground_templates = [
+      "{{if gt .Code 0}}red{{end}}",
+      "{{if eq .Code 0}}magenta{{end}}",
+    ]
+    background = 'transparent'
+    template = '❯'
+
+[transient_prompt]
+  foreground_templates = [
+    "{{if gt .Code 0}}red{{end}}",
+    "{{if eq .Code 0}}magenta{{end}}",
+  ]
+  background = 'transparent'
+  template = '❯ '
+
+[secondary_prompt]
+  foreground = 'magenta'
+  background = 'transparent'
+  template = '❯❯ '      
