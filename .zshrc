@@ -139,3 +139,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 ###eval "$(starship init zsh)"
+
+
+export K9S_CONFIG_DIR=$HOME/.config/k9s
