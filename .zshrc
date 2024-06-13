@@ -105,8 +105,8 @@ _fzf_comprun() {
 
 # ----- Bat (better cat) -----
 
-export BAT_THEME=catppuccin_mocha
-
+export BAT_THEME="Catppuccin Mocha"
+alias cat="bat --paging=never --theme=$BAT_THEME"
 # ---- Eza (better ls) -----
 
 alias ls="eza --icons=always"
