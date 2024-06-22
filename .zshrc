@@ -5,6 +5,9 @@
 ###  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 ###fi
 
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+
 [[ -d $HOME/.tmux/plugins ]] || mkdir -p $HOME/.tmux/plugins
 [[ -d $HOME/.tmux/plugins ]] || git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
