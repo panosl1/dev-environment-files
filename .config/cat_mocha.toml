@@ -20,6 +20,13 @@ version = 2
     template = "{{.Icon}} "
     type = "os"
 
+  [[blocks.segments]]
+    foreground = "p:lavender"
+    powerline_symbol = ""
+    style = "plain"
+    template = "  {{ .HostName }} "
+    type = "session"
+    
 
   [[blocks.segments]]
     foreground = "p:pink"
@@ -47,6 +54,22 @@ version = 2
       rebase_icon = " "
       revert_icon = " "
       tag_icon = " "
+
+  [[blocks.segments]]
+    type = "go"
+    style = "powerline"
+    powerline_symbol = ""
+    foreground = "p:lavender"
+    template = " ‭ﳑ {{ .Full }} "
+
+  [[blokcs.segments]]
+    type = "kubectl"
+    style = "powerline"
+    powerline_symbol = ""
+    foreground = "p:lavender"
+    template = " ﴱ {{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}} "
+    [[blokcs.segments.properties]]
+      context_aliases = ""
 
 [[blocks]]
   type = 'prompt'
