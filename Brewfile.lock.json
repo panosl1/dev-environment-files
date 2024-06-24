@@ -5159,15 +5159,15 @@
         "bottle": false
       },
       "hashicorp/tap/nomad": {
-        "version": "1.7.7",
+        "version": "1.8.0",
         "bottle": false
       },
       "hashicorp/tap/terraform": {
-        "version": "1.8.4",
+        "version": "1.8.5",
         "bottle": false
       },
       "hashicorp/tap/vault": {
-        "version": "1.16.2",
+        "version": "1.16.3",
         "bottle": false
       },
       "int128/kubelogin/kubelogin": {
