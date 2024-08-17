@@ -145,4 +145,4 @@ unset __conda_setup
 
 export K9S_CONFIG_DIR=$HOME/.config/k9s
 #neofetch
-fastfetch --logo /Users/plampropoulo/Pictures/supercomputer.png --logo-type iterm --logo-width 38 --logo-height 18
+fastfetch --logo $HOME/Pictures/supercomputer.png --logo-type iterm --logo-width 38 --logo-height 18
