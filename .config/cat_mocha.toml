@@ -89,7 +89,7 @@ final_space = true
   newline = true
 
   [[blocks.segments]]
-    template = '❯'
+    template = 'λ'
     background = 'transparent'
     type = 'text'
     style = 'plain'
